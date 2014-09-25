@@ -187,6 +187,14 @@ fieldset:not(.filter-wrapper):not(.vertical-tabs-pane):not(#edit-advanced) {
   border-top: 1px solid #cccccc;
   padding: 10px;
 }
+.dreditor-application-toggle {
+  border: none;
+  background-color: transparent;
+  color: #668a19;
+}
+.dreditor-application-toggle:hover {
+  text-decoration: underline;
+}
 .not-front #block-search-form input[type=submit] {
   height: 27px;
   margin-top: 0px;
