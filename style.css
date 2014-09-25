@@ -303,6 +303,15 @@ blockquote {
   width: calc(100% +  22px );
   position: relative;
 }
+.page-node-add-project-issue #main {
+  padding-top: 60px !important;
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+.page-node-add-project-issue #project-issue-ajax-form {
+  border: 0px solid transparent !important;
+  box-shadow: none;
+}
 #homebox .homebox-portlet .homebox-portlet-inner {
   border: 1px solid #cccccc;
   border-radius: 4px;
