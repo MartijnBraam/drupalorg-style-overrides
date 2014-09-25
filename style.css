@@ -10,7 +10,7 @@
 }
 #main p {
   font-family: sans-serif;
-  line-height: 1.4em ;
+  line-height: 1.4em;
 }
 body,
 td,
@@ -72,6 +72,11 @@ fieldset:not(.filter-wrapper):not(.vertical-tabs-pane):not(#edit-advanced) {
 }
 .sticky-header {
   z-index: 100;
+  border: 1px solid #cccccc;
+  box-shadow: 1px 2px 6px 0 rgba(0, 0, 0, 0.15);
+}
+th {
+  background: #f6f6f2;
 }
 .pager .pager-current {
   border-radius: 4px;
@@ -315,6 +320,9 @@ blockquote {
   left: calc(-11px);
   width: calc(100% +  22px );
   position: relative;
+}
+.project-issue.views-table th:first-of-type {
+  width: 300px;
 }
 .project-issue.views-table tr.state-1 td {
   background-color: transparent;

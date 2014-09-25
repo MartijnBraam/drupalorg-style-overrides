@@ -10,8 +10,8 @@
   }
 
   p {
-    font-family: sans-serif ;
-    line-height: 1.4em ;
+    font-family: sans-serif;
+    line-height: 1.4em;
   }
 }
 
@@ -23,7 +23,6 @@ fieldset:not(.filter-wrapper):not(.vertical-tabs-pane):not(#edit-advanced) {
   border-bottom: @drupal-block-border;
   border-top: @drupal-block-border;
 }
-
 
 #aside .block {
   border: @drupal-block-border;
@@ -69,7 +68,7 @@ fieldset:not(.filter-wrapper):not(.vertical-tabs-pane):not(#edit-advanced) {
     border-top: 0;
     position: relative;
     top: -1px;
-    background: -webkit-linear-gradient(top, #ffffff 0%,#eeeeee 100%);
+    background: -webkit-linear-gradient(top, #ffffff 0%, #eeeeee 100%);
   }
 }
 
@@ -83,6 +82,12 @@ fieldset:not(.filter-wrapper):not(.vertical-tabs-pane):not(#edit-advanced) {
   padding-left: 10px;
 }
 
-.sticky-header{
+.sticky-header {
   z-index: 100;
+  border: @drupal-block-border;
+  box-shadow: @drupal-block-shadow;
+}
+
+th {
+  background: @drupal-color-block-bg;
 }
