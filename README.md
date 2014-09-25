@@ -15,3 +15,20 @@ Modifications:
 * Styled and aligned form elements on various pages
 * Made dredditor styles more consistant with rest of the page
 * More small changes to clean up the layout
+
+Building
+--------
+
+The `style.css` in the repository should be the most recent build from my IDE. To compile it yourself:
+
+```bash
+$ git clone git@github.com:MartijnBraam/drupalorg-style-overrides.git
+$ cd drupalorg-style-overrides
+$ lessc style.less > style.css
+```
+
+Screenshots
+-----------
+[![](https://raw.githubusercontent.com/MartijnBraam/drupalorg-style-overrides/master/screenshots/comparison.png)](https://raw.githubusercontent.com/MartijnBraam/drupalorg-style-overrides/master/screenshots/comparison.png)
+
+[![](https://raw.githubusercontent.com/MartijnBraam/drupalorg-style-overrides/master/screenshots/issue-page.png)](https://raw.githubusercontent.com/MartijnBraam/drupalorg-style-overrides/master/screenshots/issue-page.png)
