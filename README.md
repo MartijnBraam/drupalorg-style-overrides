@@ -35,3 +35,5 @@ Screenshots
 [![](https://raw.githubusercontent.com/MartijnBraam/drupalorg-style-overrides/master/screenshots/comparison.png)](https://raw.githubusercontent.com/MartijnBraam/drupalorg-style-overrides/master/screenshots/comparison.png)
 
 [![](https://raw.githubusercontent.com/MartijnBraam/drupalorg-style-overrides/master/screenshots/issue-page.png)](https://raw.githubusercontent.com/MartijnBraam/drupalorg-style-overrides/master/screenshots/issue-page.png)
+
+[![](https://raw.githubusercontent.com/MartijnBraam/drupalorg-style-overrides/master/screenshots/issuetracker.png)](https://raw.githubusercontent.com/MartijnBraam/drupalorg-style-overrides/master/screenshots/issuetracker.png)
