@@ -1,5 +1,5 @@
-.remove-padding(){
-  left: -11px;
+.remove-padding(@distance: 11px){
+  left: calc(-1px * @distance);
+  width: ~"calc(100% + " (2px * @distance) ~")";
   position: relative;
-  width: calc(100% + 22px);
 }

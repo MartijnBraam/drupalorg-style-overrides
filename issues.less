@@ -63,15 +63,13 @@
   }
 
   .view-filters {
+    .remove-padding();
     background: rgb(246, 246, 242);
     border: 1px solid #CCC;
-    left: -11px;
     margin-bottom: 22px;
     margin-top: 22px;
     padding-left: 10px;
     padding-right: 10px;
-    position: relative;
-    width: calc(100% + 22px);
 
     input[type=text], .page-project-issues .view-filters select {
       background: white;
@@ -87,9 +85,7 @@
 
 .project-issue.views-table {
   border: 1px solid #CCC;
-  left: -11px;
-  position: relative;
-  width: calc(100% + 22px);
+  .remove-padding();
 }
 
 .page-project-issues-subscribe-mail #content {
@@ -98,8 +94,6 @@
 
 #extended-file-field-table-field-issue-files {
   border: 1px solid #CCC;
-  left: -11px;
   max-width: none;
-  position: relative;
-  width: calc(100% + 22px);
+  .remove-padding();
 }

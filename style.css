@@ -35,9 +35,9 @@ fieldset:not(.filter-wrapper):not(.vertical-tabs-pane):not(#edit-advanced) {
   margin-top: 48px;
 }
 .codeblock {
-  left: -11px;
+  left: calc(-11px);
+  width: calc(100% +  22px );
   position: relative;
-  width: calc(122%);
 }
 .content .updated,
 .submitted {
@@ -154,11 +154,11 @@ fieldset:not(.filter-wrapper):not(.vertical-tabs-pane):not(#edit-advanced) {
 }
 #edit-nodechanges-comment-body-value {
   border: 1px solid #CCC;
-  left: -1px;
   margin-top: 10px;
   padding: 10px;
+  left: calc(-1px);
+  width: calc(100% +  2px );
   position: relative;
-  width: calc(102%);
 }
 #dreditor-clone-button {
   background: white;
@@ -261,15 +261,15 @@ fieldset:not(.filter-wrapper):not(.vertical-tabs-pane):not(#edit-advanced) {
   color: #668a19;
 }
 .page-project-issues .view-filters {
+  left: calc(-11px);
+  width: calc(100% +  22px );
+  position: relative;
   background: #f6f6f2;
   border: 1px solid #CCC;
-  left: -11px;
   margin-bottom: 22px;
   margin-top: 22px;
   padding-left: 10px;
   padding-right: 10px;
-  position: relative;
-  width: calc(122%);
 }
 .page-project-issues .view-filters input[type=text],
 .page-project-issues .view-filters .page-project-issues .view-filters select {
@@ -282,19 +282,19 @@ fieldset:not(.filter-wrapper):not(.vertical-tabs-pane):not(#edit-advanced) {
 }
 .project-issue.views-table {
   border: 1px solid #CCC;
-  left: -11px;
+  left: calc(-11px);
+  width: calc(100% +  22px );
   position: relative;
-  width: calc(122%);
 }
 .page-project-issues-subscribe-mail #content {
   padding-top: 40px;
 }
 #extended-file-field-table-field-issue-files {
   border: 1px solid #CCC;
-  left: -11px;
   max-width: none;
+  left: calc(-11px);
+  width: calc(100% +  22px );
   position: relative;
-  width: calc(122%);
 }
 #homebox .homebox-portlet .homebox-portlet-inner {
   border: 1px solid #CCC ;
@@ -302,10 +302,10 @@ fieldset:not(.filter-wrapper):not(.vertical-tabs-pane):not(#edit-advanced) {
   box-shadow: inset 1px 2px 6px 0 rgba(0, 0, 0, 0.15);
 }
 #project-solr-browse-projects-form {
-  border: 1px solid #CCC;
-  left: -11px;
+  left: calc(-11px);
+  width: calc(100% +  22px );
   position: relative;
-  width: calc(122%);
+  border: 1px solid #CCC;
   top: -11px;
   border-radius: 4px 4px 0 0;
 }
@@ -321,9 +321,9 @@ fieldset:not(.filter-wrapper):not(.vertical-tabs-pane):not(#edit-advanced) {
   height: 22px;
 }
 #project-git-instructions-version-picker-form {
-  border-left: 1px solid #CCC;
-  border-right: 1px solid #CCC;
-  left: -11px;
+  left: calc(-11px);
+  width: calc(100% +  22px );
   position: relative;
-  width: calc(122%);
+  border-left: 1px solid #cccccc;
+  border-right: 1px solid #cccccc;
 }
