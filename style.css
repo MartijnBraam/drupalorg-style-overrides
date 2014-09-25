@@ -73,16 +73,18 @@ fieldset:not(.filter-wrapper):not(.vertical-tabs-pane):not(#edit-advanced) {
 .pager .pager-current {
   border-radius: 4px;
   padding: 4px 8px 4px 8px;
+  background-color: #0678be;
 }
 .pager .pager-item {
   padding: 0 0;
+  color: #0678be;
 }
 .pager a {
   border: 1px solid white;
   padding: 4px 8px 4px 8px;
 }
 .pager a:hover {
-  border: 1px solid #2e6ab1;
+  border: 1px solid #0678be;
   border-radius: 4px;
   padding: 4px 8px 4px 8px;
   text-decoration: none;
