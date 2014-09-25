@@ -153,7 +153,7 @@ fieldset:not(.filter-wrapper):not(.vertical-tabs-pane):not(#edit-advanced) {
   opacity: 0.4;
 }
 #edit-nodechanges-comment-body-value {
-  border: 1px solid #CCC;
+  border: 1px solid #cccccc;
   margin-top: 10px;
   padding: 10px;
   left: calc(-1px);
@@ -178,8 +178,8 @@ fieldset:not(.filter-wrapper):not(.vertical-tabs-pane):not(#edit-advanced) {
 }
 .dreditor-actions {
   background: #f6f6f2;
-  border-bottom: 1px solid #CCC;
-  border-top: 1px solid #CCC;
+  border-bottom: 1px solid #cccccc;
+  border-top: 1px solid #cccccc;
   padding: 10px;
 }
 .not-front #block-search-form input[type=submit] {
@@ -208,7 +208,7 @@ fieldset:not(.filter-wrapper):not(.vertical-tabs-pane):not(#edit-advanced) {
   top: -22px;
 }
 #project-issue-ajax-form {
-  border: 1px solid #CCC;
+  border: 1px solid #cccccc;
   border-radius: 4px;
   box-shadow: 1px 2px 6px 0 rgba(0, 0, 0, 0.15);
   margin-bottom: 22px;
@@ -231,7 +231,7 @@ fieldset:not(.filter-wrapper):not(.vertical-tabs-pane):not(#edit-advanced) {
   padding: 4px 2px 4px 2px;
 }
 #project-issue-issue-cockpit-searchbox {
-  border-bottom: 1px solid #CCC;
+  border-bottom: 1px solid #cccccc;
   margin-bottom: 10px;
   margin-top: 10px;
   padding-bottom: 10px;
@@ -250,7 +250,7 @@ fieldset:not(.filter-wrapper):not(.vertical-tabs-pane):not(#edit-advanced) {
   border-radius: 4px 4px 0 0;
 }
 .issue-cockpit-categories {
-  border-bottom: 1px solid #CCC;
+  border-bottom: 1px solid #cccccc;
   margin-bottom: 10px;
   padding-bottom: 10px;
 }
@@ -265,7 +265,7 @@ fieldset:not(.filter-wrapper):not(.vertical-tabs-pane):not(#edit-advanced) {
   width: calc(100% +  22px );
   position: relative;
   background: #f6f6f2;
-  border: 1px solid #CCC;
+  border: 1px solid #cccccc;
   margin-bottom: 22px;
   margin-top: 22px;
   padding-left: 10px;
@@ -281,7 +281,7 @@ fieldset:not(.filter-wrapper):not(.vertical-tabs-pane):not(#edit-advanced) {
   padding: 4px 2px 4px 2px;
 }
 .project-issue.views-table {
-  border: 1px solid #CCC;
+  border: 1px solid #cccccc;
   left: calc(-11px);
   width: calc(100% +  22px );
   position: relative;
@@ -290,14 +290,14 @@ fieldset:not(.filter-wrapper):not(.vertical-tabs-pane):not(#edit-advanced) {
   padding-top: 40px;
 }
 #extended-file-field-table-field-issue-files {
-  border: 1px solid #CCC;
+  border: 1px solid #cccccc;
   max-width: none;
   left: calc(-11px);
   width: calc(100% +  22px );
   position: relative;
 }
 #homebox .homebox-portlet .homebox-portlet-inner {
-  border: 1px solid #CCC ;
+  border: 1px solid #cccccc;
   border-radius: 4px;
   box-shadow: inset 1px 2px 6px 0 rgba(0, 0, 0, 0.15);
 }
@@ -305,7 +305,7 @@ fieldset:not(.filter-wrapper):not(.vertical-tabs-pane):not(#edit-advanced) {
   left: calc(-11px);
   width: calc(100% +  22px );
   position: relative;
-  border: 1px solid #CCC;
+  border: 1px solid #cccccc;
   top: -11px;
   border-radius: 4px 4px 0 0;
 }
