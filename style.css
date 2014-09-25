@@ -151,6 +151,9 @@ fieldset:not(.filter-wrapper):not(.vertical-tabs-pane):not(#edit-advanced) {
   bottom: 0;
   top: 10px;
 }
+.indented {
+  border-left: 1px solid #d8d8d2;
+}
 .user-signature {
   opacity: 0.4;
 }
