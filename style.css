@@ -322,6 +322,16 @@ fieldset:not(.filter-wrapper):not(.vertical-tabs-pane):not(#edit-advanced) {
   width: 200px;
   height: 22px;
 }
+.page-project-project-module .node-project-module {
+  border-bottom: 1px solid #cccccc;
+  padding-bottom: 11px;
+  margin-bottom: 22px;
+  left: calc(-11px);
+  width: calc(100% +  22px );
+  position: relative;
+  padding-left: 10px;
+  padding-right: 10px;
+}
 #project-git-instructions-version-picker-form {
   left: calc(-11px);
   width: calc(100% +  22px );
