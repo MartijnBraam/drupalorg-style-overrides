@@ -52,7 +52,7 @@ fieldset:not(.filter-wrapper):not(.vertical-tabs-pane):not(#edit-advanced) {
 }
 #page-heading .links {
   border-bottom: 0 solid transparent;
-  border-top: 1px solid #dddddd;
+  border-top: 1px solid #DDD;
 }
 #page-heading li.active {
   border-bottom: 1px solid #ddd;
