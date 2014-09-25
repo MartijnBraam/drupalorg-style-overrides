@@ -86,6 +86,27 @@
 .project-issue.views-table {
   border: @drupal-block-border;
   .remove-padding();
+
+  tr.state-1 {
+    // Active
+    .marked-table-row(@drupal-color-issue-active)
+  }
+  tr.state-2 {
+    // Fixed
+    .marked-table-row(@drupal-color-issue-fixed)
+  }
+  tr.state-8 {
+    // Needs review
+    .marked-table-row(@drupal-color-issue-needs-review)
+  }
+  tr.state-13 {
+    // Needs work
+    .marked-table-row(@drupal-color-issue-needs-work)
+  }
+  tr.state-14 {
+    // Reviewed and tested by community
+    .marked-table-row(@drupal-color-issue-reviewed-and-tested)
+  }
 }
 
 .page-project-issues-subscribe-mail #content {
@@ -98,7 +119,7 @@
   .remove-padding();
 }
 
-.page-node-add-project-issue{
+.page-node-add-project-issue {
   #main {
     padding-top: 60px !important;
     padding-left: 0 !important;
@@ -111,6 +132,6 @@
   }
 }
 
-#edit-submit-project-issue-project-searchapi{
+#edit-submit-project-issue-project-searchapi {
   .vertical-gradient(@drupal-color-lightgreen);
 }

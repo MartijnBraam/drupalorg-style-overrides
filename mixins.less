@@ -1,15 +1,25 @@
-.remove-padding(@distance: 11px){
+.remove-padding(@distance: 11px) {
   left: calc(-1px * @distance);
   width: ~"calc(100% + " (2px * @distance) ~")";
   position: relative;
 }
 
-.vertical-gradient(@color, @contrast: 7%){
+.vertical-gradient(@color, @contrast: 7%) {
   background: @color;
-  background: -moz-linear-gradient(top,  lighten(@color, @contrast) 0%, darken(@color, @contrast) 100%);
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,lighten(@color, @contrast)), color-stop(100%,darken(@color, @contrast)));
-  background: -webkit-linear-gradient(top,  lighten(@color, @contrast) 0%,darken(@color, @contrast) 100%);
-  background: -o-linear-gradient(top,  lighten(@color, @contrast) 0%,darken(@color, @contrast) 100%);
-  background: -ms-linear-gradient(top,  lighten(@color, @contrast) 0%,darken(@color, @contrast) 100%);
-  background: linear-gradient(to bottom,  lighten(@color, @contrast) 0%,darken(@color, @contrast) 100%);
+  background: -moz-linear-gradient(top, lighten(@color, @contrast) 0%, darken(@color, @contrast) 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, lighten(@color, @contrast)), color-stop(100%, darken(@color, @contrast)));
+  background: -webkit-linear-gradient(top, lighten(@color, @contrast) 0%, darken(@color, @contrast) 100%);
+  background: -o-linear-gradient(top, lighten(@color, @contrast) 0%, darken(@color, @contrast) 100%);
+  background: -ms-linear-gradient(top, lighten(@color, @contrast) 0%, darken(@color, @contrast) 100%);
+  background: linear-gradient(to bottom, lighten(@color, @contrast) 0%, darken(@color, @contrast) 100%);
+}
+
+.marked-table-row(@color) {
+  td {
+    background-color: transparent;
+    border-top: 1px solid #CCC;
+  }
+  & td:first-child {
+    border-left: 5px solid @color;
+  }
 }
