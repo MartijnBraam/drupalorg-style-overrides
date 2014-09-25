@@ -19,13 +19,16 @@ Modifications:
 Building
 --------
 
-The `style.css` in the repository should be the most recent build from my IDE. To compile it yourself:
+The [style.css](https://raw.githubusercontent.com/MartijnBraam/drupalorg-style-overrides/master/style.css)
+in the repository should be the most recent build from my IDE. To compile it yourself:
 
 ```bash
 $ git clone git@github.com:MartijnBraam/drupalorg-style-overrides.git
 $ cd drupalorg-style-overrides
 $ lessc style.less > style.css
 ```
+
+The styles are tested in Google Chrome using the [stylebot](https://chrome.google.com/webstore/detail/stylebot/oiaejidbmkiecgbjeifoejpgmdaleoha) plugin (paste the style.css contents in the plugin options).
 
 Screenshots
 -----------
