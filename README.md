@@ -14,6 +14,7 @@ Modifications:
 * Changed font on site to your os's default sans-serif font and increased line spacing
 * Styled and aligned form elements on various pages
 * Made dredditor styles more consistant with rest of the page
+* Made issue list easier on the eyes
 * More small changes to clean up the layout
 
 Building
