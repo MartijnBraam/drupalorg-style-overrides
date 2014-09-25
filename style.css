@@ -213,6 +213,15 @@ fieldset:not(.filter-wrapper):not(.vertical-tabs-pane):not(#edit-advanced) {
 .not-front #header-right {
   width: 372px;
 }
+.not-front #header-right input[type=submit] {
+  background: #9fc748;
+  background: -moz-linear-gradient(top, #adcf63 0%, #8db437 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #adcf63), color-stop(100%, #8db437));
+  background: -webkit-linear-gradient(top, #adcf63 0%, #8db437 100%);
+  background: -o-linear-gradient(top, #adcf63 0%, #8db437 100%);
+  background: -ms-linear-gradient(top, #adcf63 0%, #8db437 100%);
+  background: linear-gradient(to bottom, #adcf63 0%, #8db437 100%);
+}
 .not-front #header-right-inner {
   margin-top: 5px;
 }
@@ -322,6 +331,15 @@ blockquote {
 .page-node-add-project-issue #project-issue-ajax-form {
   border: 0px solid transparent !important;
   box-shadow: none;
+}
+#edit-submit-project-issue-project-searchapi {
+  background: #9fc748;
+  background: -moz-linear-gradient(top, #adcf63 0%, #8db437 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #adcf63), color-stop(100%, #8db437));
+  background: -webkit-linear-gradient(top, #adcf63 0%, #8db437 100%);
+  background: -o-linear-gradient(top, #adcf63 0%, #8db437 100%);
+  background: -ms-linear-gradient(top, #adcf63 0%, #8db437 100%);
+  background: linear-gradient(to bottom, #adcf63 0%, #8db437 100%);
 }
 #homebox .homebox-portlet .homebox-portlet-inner {
   border: 1px solid #cccccc;
