@@ -1,0 +1,329 @@
+#main {
+  border: 1px solid #cccccc;
+  border-radius: 4px;
+  box-shadow: 1px 2px 6px 0 rgba(0, 0, 0, 0.15);
+  margin-bottom: 22px;
+  padding: 10px;
+}
+#main .support {
+  display: none;
+}
+#main p {
+  font-family: sans-serif;
+  line-height: 1.4em ;
+}
+body,
+td,
+th,
+p {
+  line-height: 1.4em;
+}
+fieldset:not(.filter-wrapper):not(.vertical-tabs-pane):not(#edit-advanced) {
+  border-bottom: 1px solid #cccccc;
+  border-top: 1px solid #cccccc;
+}
+#aside .block {
+  border: 1px solid #cccccc;
+  border-radius: 4px;
+  box-shadow: 1px 2px 6px 0 rgba(0, 0, 0, 0.15);
+  margin-bottom: 22px;
+}
+.breadcrumb {
+  display: none;
+}
+#tabs {
+  margin-top: 48px;
+}
+.codeblock {
+  left: -11px;
+  position: relative;
+  width: calc(122%);
+}
+.content .updated,
+.submitted {
+  opacity: 0.5;
+}
+#page {
+  min-width: 1080px;
+}
+#page-heading {
+  margin-bottom: 22px;
+  position: relative;
+}
+#page-heading .links {
+  border-bottom: 0 solid transparent;
+  border-top: 1px solid #dddddd;
+}
+#page-heading li.active {
+  border-bottom: 1px solid #ddd;
+  border-radius: 0 0 7px 7px;
+  border-top: 0;
+  position: relative;
+  top: -1px;
+  background: -webkit-linear-gradient(top, #ffffff 0%, #eeeeee 100%);
+}
+#page-subtitle {
+  left: 10px;
+  position: absolute;
+  top: 103px;
+}
+#page-title {
+  padding-left: 10px;
+}
+.pager .pager-current {
+  border-radius: 4px;
+  padding: 4px 8px 4px 8px;
+}
+.pager .pager-item {
+  padding: 0 0;
+}
+.pager a {
+  border: 1px solid white;
+  padding: 4px 8px 4px 8px;
+}
+.pager a:hover {
+  border: 1px solid #2e6ab1;
+  border-radius: 4px;
+  padding: 4px 8px 4px 8px;
+  text-decoration: none;
+}
+.bue-ui {
+  padding-left: 10px;
+}
+.bue-ui input {
+  border-radius: 4px;
+  height: 22px;
+  line-height: 10px;
+  margin-right: 5px;
+  padding: 6px;
+}
+.bue-ui input:hover {
+  border: 1px solid #0678be;
+}
+.comment {
+  min-height: 150px;
+  position: relative;
+}
+.comment .content {
+  margin-left: 0;
+  margin-right: 120px;
+}
+.comment .links {
+  bottom: 0;
+  position: absolute;
+  right: 0;
+}
+.comment .picture {
+  position: absolute;
+  right: 59px;
+  top: 11px;
+}
+.comment .submitted {
+  color: white;
+}
+.comment .username {
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 56px;
+  width: 100px;
+  font-size: 0.9em;
+  word-wrap: break-word;
+}
+.comment time {
+  color: black;
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 85px;
+  width: 100px;
+  font-size: 0.9em;
+}
+.comment .permalink-wrapper {
+  display: block;
+  position: absolute;
+  right: 0;
+  width: 107px;
+  border-left: 1px dotted #8A8A8A;
+  text-align: right;
+  bottom: 0;
+  top: 10px;
+}
+.user-signature {
+  opacity: 0.4;
+}
+#edit-nodechanges-comment-body-value {
+  border: 1px solid #CCC;
+  left: -1px;
+  margin-top: 10px;
+  padding: 10px;
+  position: relative;
+  width: calc(102%);
+}
+#dreditor-clone-button {
+  background: white;
+  border: 0px solid white;
+  border-radius: 4px;
+  box-shadow: none;
+  color: #668a19;
+  font-family: 'Lucida Grande', 'DejaVu Sans', 'Bitstream Vera Sans', Verdana, Arial, sans-serif;
+  font-size: 13px;
+  font-weight: normal;
+  padding: 4px;
+  text-transform: none;
+}
+#dreditor-clone-button:hover {
+  background: #668a19;
+  color: white;
+}
+.dreditor-actions {
+  background: #f6f6f2;
+  border-bottom: 1px solid #CCC;
+  border-top: 1px solid #CCC;
+  padding: 10px;
+}
+.not-front #block-search-form input[type=submit] {
+  height: 27px;
+  margin-top: 0px;
+  padding: 2px 18px 6px 18px;
+}
+.not-front #block-search-form input[type=text] {
+  background-position: 8px -858px;
+  border: 0px solid white;
+  border-radius: 4px;
+  padding: 4px 4px 4px 30px;
+  width: 274px;
+}
+.not-front #header-left {
+  height: 50px;
+}
+.not-front #header-right {
+  width: 372px;
+}
+.not-front #header-right-inner {
+  margin-top: 5px;
+}
+.not-front #site-name {
+  position: relative;
+  top: -22px;
+}
+#project-issue-ajax-form {
+  border: 1px solid #CCC;
+  border-radius: 4px;
+  box-shadow: 1px 2px 6px 0 rgba(0, 0, 0, 0.15);
+  margin-bottom: 22px;
+}
+#project-issue-ajax-form .form-item-nodechanges-comment-body-value label {
+  padding-left: 10px;
+}
+#project-issue-ajax-form h2 {
+  margin-bottom: 10px;
+  margin-top: 10px;
+  padding-left: 10px;
+}
+#project-issue-ajax-form input[type=text],
+#project-issue-ajax-form #project-issue-ajax-form select {
+  background: white;
+  border: 1px solid #b8b8b8;
+  border-radius: 4px;
+  border-top-color: #999;
+  box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.125);
+  padding: 4px 2px 4px 2px;
+}
+#project-issue-issue-cockpit-searchbox {
+  border-bottom: 1px solid #CCC;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  padding-bottom: 10px;
+}
+#project-issue-issue-cockpit-searchbox input[type=submit] {
+  border-radius: 4px;
+  padding: 2px 18px 4px 18px;
+  position: relative;
+  top: -1px;
+}
+#project-issue-issue-cockpit-searchbox input[type=text] {
+  border-radius: 4px;
+  width: 215px;
+}
+.field-name-field-issue-status {
+  border-radius: 4px 4px 0 0;
+}
+.issue-cockpit-categories {
+  border-bottom: 1px solid #CCC;
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+}
+.page-project-issues .content .links:first-of-type {
+  margin-top: 48px;
+}
+.page-project-issues .content .links:first-of-type a {
+  color: #668a19;
+}
+.page-project-issues .view-filters {
+  background: #f6f6f2;
+  border: 1px solid #CCC;
+  left: -11px;
+  margin-bottom: 22px;
+  margin-top: 22px;
+  padding-left: 10px;
+  padding-right: 10px;
+  position: relative;
+  width: calc(122%);
+}
+.page-project-issues .view-filters input[type=text],
+.page-project-issues .view-filters .page-project-issues .view-filters select {
+  background: white;
+  border: 1px solid #b8b8b8;
+  border-radius: 4px;
+  border-top-color: #999;
+  box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.125);
+  padding: 4px 2px 4px 2px;
+}
+.project-issue.views-table {
+  border: 1px solid #CCC;
+  left: -11px;
+  position: relative;
+  width: calc(122%);
+}
+.page-project-issues-subscribe-mail #content {
+  padding-top: 40px;
+}
+#extended-file-field-table-field-issue-files {
+  border: 1px solid #CCC;
+  left: -11px;
+  max-width: none;
+  position: relative;
+  width: calc(122%);
+}
+#homebox .homebox-portlet .homebox-portlet-inner {
+  border: 1px solid #CCC ;
+  border-radius: 4px;
+  box-shadow: inset 1px 2px 6px 0 rgba(0, 0, 0, 0.15);
+}
+#project-solr-browse-projects-form {
+  border: 1px solid #CCC;
+  left: -11px;
+  position: relative;
+  width: calc(122%);
+  top: -11px;
+  border-radius: 4px 4px 0 0;
+}
+#project-solr-browse-projects-form .form-item {
+  position: relative;
+}
+#project-solr-browse-projects-form .form-item select,
+#project-solr-browse-projects-form .form-item input[type=text] {
+  position: absolute;
+  top: 0;
+  left: 180px;
+  width: 200px;
+  height: 22px;
+}
+#project-git-instructions-version-picker-form {
+  border-left: 1px solid #CCC;
+  border-right: 1px solid #CCC;
+  left: -11px;
+  position: relative;
+  width: calc(122%);
+}

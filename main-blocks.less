@@ -1,0 +1,82 @@
+#main {
+  border: @drupal-block-border;
+  border-radius: @drupal-block-border-radius;
+  box-shadow: @drupal-block-shadow;
+  margin-bottom: @drupal-block-spacing;
+  padding: 10px;
+
+  .support {
+    display: none;
+  }
+
+  p {
+    font-family: sans-serif ;
+    line-height: 1.4em ;
+  }
+}
+
+body, td, th, p {
+  line-height: 1.4em;
+}
+
+fieldset:not(.filter-wrapper):not(.vertical-tabs-pane):not(#edit-advanced) {
+  border-bottom: @drupal-block-border;
+  border-top: @drupal-block-border;
+}
+
+
+#aside .block {
+  border: @drupal-block-border;
+  border-radius: @drupal-block-border-radius;
+  box-shadow: @drupal-block-shadow;
+  margin-bottom: @drupal-block-spacing;
+}
+
+.breadcrumb {
+  display: none;
+}
+
+#tabs {
+  margin-top: 48px;
+}
+
+.codeblock {
+  .remove-padding();
+}
+
+.content .updated, .submitted {
+  opacity: 0.5;
+}
+
+#page {
+  min-width: 1080px;
+}
+
+#page-heading {
+  margin-bottom: 22px;
+  position: relative;
+
+  .links {
+    border-bottom: 0 solid transparent;
+    border-top: 1px solid rgb(221, 221, 221);
+  }
+
+  li.active {
+    border-bottom: 1px solid #ddd;
+    border-radius: 0 0 7px 7px;
+    border-top: 0;
+    position: relative;
+    top: -1px;
+    background: -webkit-linear-gradient(top, #ffffff 0%,#eeeeee 100%);
+  }
+}
+
+#page-subtitle {
+  left: 10px;
+  position: absolute;
+  top: 103px;
+}
+
+#page-title {
+  padding-left: 10px;
+}
