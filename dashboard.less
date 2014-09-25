@@ -1,5 +1,24 @@
 #homebox .homebox-portlet .homebox-portlet-inner {
   border: @drupal-block-border;
   border-radius: @drupal-block-border-radius;
-  box-shadow: inset 1px 2px 6px 0 rgba(0,0,0,0.15) ;
+  box-shadow: inset 1px 2px 6px 0 rgba(0, 0, 0, 0.15);
+}
+
+.page-user-track {
+  table.sticky-table {
+    .remove-padding();
+    border: @drupal-block-border;
+    border-radius: @drupal-block-border-radius;
+    top: -11px;
+  }
+
+  .view-vc-git-project-user-commits {
+    .remove-padding();
+    border-left: @drupal-block-border;
+    border-right: @drupal-block-border;
+
+    h3, .commit-info, .attribution {
+      padding-left: 10px;
+    }
+  }
 }

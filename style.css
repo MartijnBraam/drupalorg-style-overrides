@@ -317,6 +317,26 @@ blockquote {
   border-radius: 4px;
   box-shadow: inset 1px 2px 6px 0 rgba(0, 0, 0, 0.15);
 }
+.page-user-track table.sticky-table {
+  left: calc(-11px);
+  width: calc(100% +  22px );
+  position: relative;
+  border: 1px solid #cccccc;
+  border-radius: 4px;
+  top: -11px;
+}
+.page-user-track .view-vc-git-project-user-commits {
+  left: calc(-11px);
+  width: calc(100% +  22px );
+  position: relative;
+  border-left: 1px solid #cccccc;
+  border-right: 1px solid #cccccc;
+}
+.page-user-track .view-vc-git-project-user-commits h3,
+.page-user-track .view-vc-git-project-user-commits .commit-info,
+.page-user-track .view-vc-git-project-user-commits .attribution {
+  padding-left: 10px;
+}
 #project-solr-browse-projects-form {
   left: calc(-11px);
   width: calc(100% +  22px );
