@@ -99,6 +99,11 @@
     // Fixed
     .marked-table-row(@drupal-color-issue-fixed)
   }
+  tr.state-4, tr.state-16 {
+    // Postponed
+    // Postponed, maintainer needs more info
+    .marked-table-row(@drupal-color-issue-postponed)
+  }
   tr.state-8 {
     // Needs review
     .marked-table-row(@drupal-color-issue-needs-review)
@@ -107,8 +112,9 @@
     // Needs work
     .marked-table-row(@drupal-color-issue-needs-work)
   }
-  tr.state-14 {
+  tr.state-14, tr.state-15 {
     // Reviewed and tested by community
+    // Patch to be ported
     .marked-table-row(@drupal-color-issue-reviewed-and-tested)
   }
 }
