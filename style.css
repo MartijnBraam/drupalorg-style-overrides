@@ -209,6 +209,11 @@ fieldset:not(.filter-wrapper):not(.vertical-tabs-pane):not(#edit-advanced) {
   position: relative;
   top: -22px;
 }
+blockquote {
+  background: #f6f6f2;
+  border-left: 3px solid #AAA;
+  border-radius: 4px;
+}
 #project-issue-ajax-form {
   border: 1px solid #cccccc;
   border-radius: 4px;
