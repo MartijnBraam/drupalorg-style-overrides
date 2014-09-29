@@ -398,6 +398,14 @@ blockquote {
   background: -ms-linear-gradient(top, #adcf63 0%, #8db437 100%);
   background: linear-gradient(to bottom, #adcf63 0%, #8db437 100%);
 }
+.node-type-project-issue.page-node-edit #main {
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+.node-type-project-issue.page-node-edit #project-issue-ajax-form {
+  border: 0px solid transparent !important;
+  box-shadow: none;
+}
 #homebox .homebox-portlet .homebox-portlet-inner {
   border: 1px solid #cccccc;
   border-radius: 4px;
