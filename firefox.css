@@ -263,6 +263,10 @@
     border-left: 3px solid #AAA;
     border-radius: 4px;
   }
+  #header {
+    background-image: none !important;
+    background-color: #064771;
+  }
   #project-issue-ajax-form {
     border: 1px solid #cccccc;
     border-radius: 4px;
