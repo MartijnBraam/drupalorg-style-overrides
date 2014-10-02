@@ -227,9 +227,10 @@
     text-decoration: underline;
   }
   .not-front #block-search-form input[type=submit] {
-    height: 27px;
-    margin-top: 0px;
-    padding: 2px 18px 6px 18px;
+    display: none;
+  }
+  .not-front #search-theme-form-advanced {
+    top: 58px;
   }
   .not-front #block-search-form input[type=text] {
     background-position: 8px -858px;
