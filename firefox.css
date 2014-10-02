@@ -30,7 +30,9 @@
     margin-bottom: 22px;
   }
   .breadcrumb {
-    display: none;
+    position: absolute;
+    left: 10px;
+    top: 68px;
   }
   #tabs {
     margin-top: 48px;
